@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	app:cardElevation="2dp"
+	app:cardCornerRadius="4dp">
+
+	<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:background="#ffffffff"
+		android:padding="20dp">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="MACHINE LEARNING (ML)"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:textSize="14sp"
+			android:textAllCaps="true"
+			android:textColor="#607D8B"
+			android:id="@+id/article_tag"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Advantages and Disadvantages of Logistic Regression"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:textStyle="bold|normal"
+			android:textSize="19sp"
+			android:id="@+id/article_title"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="In this article, we have explored the various advantages and disadvantages of using logistic regression algorithm in depth"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_marginTop="8dp"
+			android:layout_marginBottom="20dp"
+			android:textSize="16sp"
+			android:id="@+id/article_description"/>
+
+	</LinearLayout>
+</android.support.v7.widget.CardView>
